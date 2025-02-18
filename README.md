@@ -54,15 +54,17 @@ Execute the ipynb file to train and evaluate the model
 ✔ Predictions made on test data using the best model.  
 ✔ Evaluated using **accuracy_score, classification_report, confusion_matrix**.  
 
-## 📊 Classification Report  
-              precision    recall  f1-score   support
+### **📊 Classification Report **  
 
-   Benign (0)       0.99      1.00      1.00       108
-Malignant (1)       1.00      0.98      0.99        63
+- **Precision**: Measures how many of the predicted positive cases were actually correct.  
+- **Recall**: Measures how many actual positive cases were correctly identified.  
+- **F1-score**: A balance between precision and recall.  
+- **Support**: The number of actual occurrences of each class in the dataset.  
 
-    accuracy                           0.99       171
-   macro avg       1.00      0.99      0.99       171
-weighted avg       0.99      0.99      0.99       171
+#### **Results Summary:**  
+✅ **Benign Tumors (0)** → **99% precision, 100% recall** → Almost all benign cases were correctly classified.  
+✅ **Malignant Tumors (1)** → **100% precision, 98% recall** → One malignant case was misclassified as benign.  
+✅ **Overall Accuracy:** **99%** → The model performs very well in predicting breast cancer.  
 
 ## 🔍 Confusion Matrix  
 
