@@ -55,7 +55,6 @@ Execute the ipynb file to train and evaluate the model
 ✔ Evaluated using **accuracy_score, classification_report, confusion_matrix**.  
 
 ## 📊 Classification Report  
-'''
               precision    recall  f1-score   support
 
    Benign (0)       0.99      1.00      1.00       108
@@ -64,7 +63,7 @@ Malignant (1)       1.00      0.98      0.99        63
     accuracy                           0.99       171
    macro avg       1.00      0.99      0.99       171
 weighted avg       0.99      0.99      0.99       171
-'''
+
 ## 🔍 Confusion Matrix  
 
 - **108** True Positives (Benign correctly classified).  
