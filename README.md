@@ -1,9 +1,7 @@
 # Breast Cancer Prediction using Logistic Regression  
 
-## 📌 Project Overview  
-This project builds a **Breast Cancer Prediction Model** using **Logistic Regression** on the  
-[Breast Cancer Wisconsin Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data).  
-Hyperparameter tuning with **GridSearchCV** improved accuracy from **98.2% to 99.4%**.  
+## 📌 Project Overview
+This project is part of my **30-day data science challenge** where I complete one project per day using different machine learning models. On **Day 1**, I implemented a **Logistic Regression Classifier** on the **Breast Cancer Prediction Model** to categorise as malignant or benign cells.
 
 ## 📂 Dataset  
 - **Source:** [Breast Cancer Wisconsin Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)  
@@ -73,6 +71,8 @@ Execute the ipynb file to train and evaluate the model
 - **1** False Negative (Malignant misclassified as Benign).  
 - **0** False Positives (No Benign misclassified as Malignant).  
 
+---
+🛠️ **This is part of my 30-day challenge where I explore different ML models daily. Stay tuned for Day 4!** 🎯
 
-## 📜 License  
-This project is open-source and available for personal and educational use.  
+## 👨‍💻 Author
+Ishmeen Garewal ✨
